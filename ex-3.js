@@ -3,14 +3,17 @@ const todos = [
   { topic: "Workout", completed: false },
   { topic: "Playing computer games", completed: true },
   { topic: "Relax", completed: false },
-  { topic: "Clean the room", completed: true },
+  { topic: "Clean the room", completed: true }
 ];
 
 function getTodoTopics(todos) {
   // Start coding here
+  return todos.map(todo => todo.topic);
 }
 
-getTodoTopics(todos);
+ getTodoTopics(todos);
+ console.log(getTodoTopics(todos));
+ 
 
 /* 
 	Output:
